@@ -1,4 +1,4 @@
-# Whale Shark Tourism Compliance Analysis
+# 2025 Whale Shark Tourism Compliance Analysis
 
 [![DOI](https://img.shields.io/badge/DOI-10.1080%2F09669582.2025.2593421-blue)](https://doi.org/10.1080/09669582.2025.2593421)
 
@@ -21,9 +21,9 @@ This repository contains the data analysis code and supplementary materials for 
 ## Repository Contents
 
 - `whale_shark_analysis.Rmd` - Main R Markdown analysis script
+- `whale_shark_analysis.html` - Compiled HTML analysis report
 - `whale_shark_data/` - Data files (CSV format)
 - `outputs/` - Generated analysis outputs and figures
-- `usf_style.css` - Custom styling for HTML output
 
 ## Key Findings
 
@@ -48,7 +48,7 @@ install.packages(c("mgcv", "mgcViz", "dplyr", "ggplot2",
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/lucaspgriffin/whale-shark-analysis.git
+   git clone https://github.com/lucaspgriffin/whale-shark-tourism-compliance-jst2025.git
    ```
 
 2. Open `whale_shark_analysis.Rmd` in RStudio
@@ -57,7 +57,7 @@ install.packages(c("mgcv", "mgcViz", "dplyr", "ggplot2",
 
 ## Repository URL
 
-This repository is available at: https://github.com/lucaspgriffin/whale-shark-analysis
+This repository is available at: https://github.com/lucaspgriffin/whale-shark-tourism-compliance-jst2025
 
 ## Citation
 
