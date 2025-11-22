@@ -908,7 +908,7 @@ summary_findings <- data.frame(
     "Swimmers per whale shark ratio",
     "Multiple boats per shark (%)",
     "4+ swimmers per shark (%)",
-    "Patrol boat not visible (flights)"
+    "Patrol boat visible in video frames (%)"
   ),
   Year_2016 = c(
     paste0(round(mean(general16$WS_FOOTAGE), 1), " ± ", round(sd(general16$WS_FOOTAGE), 1)),
@@ -926,7 +926,7 @@ summary_findings <- data.frame(
     paste0(round(mean(general22_SW_WS$SWIM_WS), 1), " ± ", round(sd(general22_SW_WS$SWIM_WS), 1)),
     paste0(boat_analysis_2022$percentage, "%"),
     paste0(swimmer_analysis_2022$percentage, "%"),
-    paste0(patrol_absent_flights, "/", total_flights_2022)
+    paste0(round((nrow(patrol_presence_general)/nrow(general22))*100, 1), "%")
   )
 )
 
