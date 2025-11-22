@@ -48,7 +48,7 @@ install.packages(c("mgcv", "mgcViz", "dplyr", "ggplot2",
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/whale-shark-tourism-compliance-jst2025.git
+   git clone https://github.com/lucaspgriffin/whale-shark-analysis.git
    ```
 
 2. Open `whale_shark_analysis.Rmd` in RStudio
@@ -57,7 +57,7 @@ install.packages(c("mgcv", "mgcViz", "dplyr", "ggplot2",
 
 ## Repository URL
 
-This repository is available at: https://github.com/yourusername/whale-shark-tourism-compliance-jst2025
+This repository is available at: https://github.com/lucaspgriffin/whale-shark-analysis
 
 ## Citation
 
