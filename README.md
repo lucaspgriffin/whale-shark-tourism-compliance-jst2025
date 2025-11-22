@@ -15,50 +15,12 @@ Published in *Journal of Sustainable Tourism* (2025)
 ³ Centre for Earth Observation Sciences and Department of Environment and Geography, University of Manitoba, Winnipeg, R3T 2N2, Canada  
 ⁴ Department of Integrative Biology, University of South Florida, FL 33620, USA
 
-## Abstract
-
-This repository contains the data analysis code and supplementary materials for the published research on whale shark tourism compliance at Isla Mujeres, Mexico. The study compares tourism compliance patterns between 2016 and 2022 using aerial video surveys.
-
 ## Repository Contents
 
-- `whale_shark_analysis.Rmd` - Main R Markdown analysis script
-- `whale_shark_analysis.html` - Compiled HTML analysis report
-- `whale_shark_data/` - Data files (CSV format)
-- `outputs/` - Generated analysis outputs and figures
-
-## Key Findings
-
-- 96% increase in total video surveillance time between study periods
-- Significant increases in swimmer density and violations
-- Limited effectiveness of patrol boat enforcement
-- Predictive models for violation frequency based on encounter characteristics
-
-## Requirements
-
-### R and RStudio
-- R version 4.0 or higher
-- RStudio (recommended for viewing R Markdown files)
-
-### Required R Packages
-```r
-install.packages(c("mgcv", "mgcViz", "dplyr", "ggplot2", 
-                   "cowplot", "lubridate", "viridis", "knitr"))
-```
-
-## Reproducibility
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/lucaspgriffin/whale-shark-tourism-compliance-jst2025.git
-   ```
-
-2. Open `whale_shark_analysis.Rmd` in RStudio
-
-3. Knit to HTML to reproduce all analyses and figures
-
-## Repository URL
-
-This repository is available at: https://github.com/lucaspgriffin/whale-shark-tourism-compliance-jst2025
+- `whale_shark_analysis.Rmd` - R Markdown analysis script
+- `whale_shark_analysis.html` - Complete analysis report
+- `whale_shark_data/` - Data files
+- `outputs/` - Figures and results
 
 ## Citation
 
@@ -72,14 +34,4 @@ This repository is available at: https://github.com/lucaspgriffin/whale-shark-to
   doi={10.1080/09669582.2025.2593421}
 }
 ```
-
-## Contact
-
-For questions about the analysis or data, please contact:
-- Lucas P. Griffin: lpgriffin@usf.edu
-- Hoa T. T. Ninh: [email]
-
-## License
-
-Code is available under MIT License. Data usage should cite the original publication.
 
