@@ -4,15 +4,16 @@
 
 ## Publication
 
-**Assessing tourism compliance challenges at one of the largest whale shark aggregation sites in the world**
+**Compliance challenges with tourism at the world's largest whale shark aggregation site**
 
-*Hoa T. T. Ninh¹, Curtice R. Griffin¹, Rafael de la Para-Venegas², Kimberly L. Ovitz³, Andy J. Danylchuk¹, Lucas P. Griffin¹*
+*Hoa T. T. Ninh¹, Curtice R. Griffin¹, Rafael de la Para-Venegas², Kimberly L. Ovitz³, Andy J. Danylchuk¹, Lucas P. Griffin⁴*
 
 Published in *Journal of Sustainable Tourism* (2025)
 
-¹ University of Massachusetts Amherst  
-² Instituto de Ciencias del Mar y Limnología, Universidad Nacional Autónoma de México  
-³ Wildlife Conservation Society
+¹ Department of Environmental Conservation, University of Massachusetts Amherst, Amherst, MA 01003, USA  
+² Ch'ooj Ajuail AC, Cancún, Quintana Roo 77509, México  
+³ Centre for Earth Observation Sciences and Department of Environment and Geography, University of Manitoba, Winnipeg, R3T 2N2, Canada  
+⁴ Department of Integrative Biology, University of South Florida, FL 33620, USA
 
 ## Abstract
 
@@ -63,7 +64,7 @@ This repository is available at: https://github.com/lucaspgriffin/whale-shark-to
 
 ```bibtex
 @article{ninh2025whale,
-  title={Assessing tourism compliance challenges at one of the largest whale shark aggregation sites in the world},
+  title={Compliance challenges with tourism at the world's largest whale shark aggregation site},
   author={Ninh, Hoa TT and Griffin, Curtice R and de la Para-Venegas, Rafael and Ovitz, Kimberly L and Danylchuk, Andy J and Griffin, Lucas P},
   journal={Journal of Sustainable Tourism},
   year={2025},
@@ -75,7 +76,7 @@ This repository is available at: https://github.com/lucaspgriffin/whale-shark-to
 ## Contact
 
 For questions about the analysis or data, please contact:
-- Lucas P. Griffin: [email]
+- Lucas P. Griffin: lpgriffin@usf.edu
 - Hoa T. T. Ninh: [email]
 
 ## License
