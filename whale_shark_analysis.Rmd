@@ -411,10 +411,7 @@ knitr::kable(frequency_results, caption = "Violation Frequency per Minute Analys
 # Patrol Boat Effectiveness
 
 ```{r patrol-analysis}
-# Patrol presence 
-(patrol_present_flights <- sum(infield22$POLICE_INFIELD == "Y"))
-
-# Video frame visibility analysis
+# Patrol boat visibility analysis
 patrol_presence_general <- general22 %>% 
   left_join(infield22, by = "FLIGHT") %>%
   filter(POLICE_PRESENCE == "yes")
