@@ -411,18 +411,8 @@ knitr::kable(frequency_results, caption = "Violation Frequency per Minute Analys
 # Patrol Boat Effectiveness
 
 ```{r patrol-analysis}
-# Patrol presence analysis
-patrol_absent_flights <- sum(infield22$POLICE_INFIELD == "N")
-total_flights_2022 <- nrow(infield22)
-
-patrol_visibility <- data.frame(
-  Metric = "Patrol boat visibility",
-  Absent_Flights = patrol_absent_flights,
-  Total_Flights = total_flights_2022,
-  Percentage_Absent = round((patrol_absent_flights/total_flights_2022)*100, 1)
-)
-
-knitr::kable(patrol_visibility, caption = "Patrol Boat Visibility", row.names = FALSE)
+# Patrol presence 
+(patrol_present_flights <- sum(infield22$POLICE_INFIELD == "Y"))
 
 # Video frame visibility analysis
 patrol_presence_general <- general22 %>% 
